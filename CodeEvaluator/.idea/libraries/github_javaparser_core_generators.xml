@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="github.javaparser.core.generators" type="repository">
+    <properties maven-id="com.github.javaparser:javaparser-core-generators:3.5.11">
+      <exclude>
+        <dependency maven-id="com.github.javaparser:javaparser-core-generators" />
+        <dependency maven-id="com.github.javaparser:javaparser-core" />
+      </exclude>
+    </properties>
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

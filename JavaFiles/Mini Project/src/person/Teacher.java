@@ -27,15 +27,12 @@ public class Teacher  {
             iq -= 20;
         }
 
-        for (Subject subject : subjects) {
-            if (subject.difficulty == 1) {
-                iq += 10;
-            }
-            if (subject.difficulty == 2) {
-                iq += 20;
-            }
-            if (subject.difficulty == 3) {
-                iq += 30;
+        for (int i55 = 0; i55 < 3; i55++) {
+            for (int i555 = 0; i555 < 3; i555++) {
+                
+            }   
+            for (int i555 = 0; i555 < 3; i555++) {
+                
             }   
         }
 
@@ -48,6 +45,28 @@ public class Teacher  {
         }
         else {
             return false;
+        }
+    }
+
+    public void forLoops() {
+        for (int i = 0; i < 3; i++) {
+            for (int i1 = 0; i1 < 3; i1++) {
+                for (int i2 = 0; i2 < 3; i2++) {
+                    for (int i3 = 0; i3 < 3; i3++) {
+                        for (int i4 = 0; i4 < 3; i4++) {
+            
+                        }
+                        for (int i5 = 0; i5 < 3; i5++) {
+            
+                        }
+                        for (int i55 = 0; i55 < 3; i55++) {
+                            for (int i555 = 0; i555 < 3; i555++) {
+                                
+                            }   
+                        }
+                    }
+                }
+            }
         }
     }
 }
