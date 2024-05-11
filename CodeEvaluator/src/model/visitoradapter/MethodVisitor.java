@@ -9,6 +9,7 @@ import java.util.List;
 
 
 public class MethodVisitor extends VoidVisitorAdapter<Object> {
+
     private final HashMap<String, Integer> methodsComplexity;
     private MethodDeclaration methodDeclarationNode;
     private String methodName;

@@ -54,8 +54,3 @@ public class CodeStyleValidator {
         System.out.println(roundedResult + "%");
     }
 }
-
-// 100 : x = 7 : 3
-// 300 = 7 x
-// x =
-
