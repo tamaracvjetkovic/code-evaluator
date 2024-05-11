@@ -19,20 +19,39 @@ public class Teacher  {
 
     public int calculateIQ() {
         int iq = 0;
-
         if (isSmart()) {
             iq += 20;
+        } 
+        else if (isSmart()) {
+            iq -= 20;
         }
         else {
             iq -= 20;
         }
+        for (int i = 0 ; i < 5; i++) {
+            if (i > 5) {
 
-        for (int i55 = 0; i55 < 3; i55++) {
-            for (int i555 = 0; i555 < 3; i555++) {
+            }
+        }
+        for (int i1 = 0; i1 < 3; i1++) {
+            for (int i2 = 0; i2 < 3; i2++) {
                 
             }   
-            for (int i555 = 0; i555 < 3; i555++) {
-                
+            for (int i3 = 0; i3 < 3; i3++) {
+                if (i3 < 2) {
+                    System.out.println("if1!");
+
+                    if (i3 < 1) System.out.println("if2!");
+                    
+                }
+
+                if (i3 < 6) {
+                    System.out.println("if3!");
+                }
+
+                if (i3 < 8) {
+                    System.out.println("if4!");
+                }
             }   
         }
 

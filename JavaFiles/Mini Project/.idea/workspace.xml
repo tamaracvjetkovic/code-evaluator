@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62771185-247a-4bc0-8c26-7c8f35659516" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../CodeEvaluator/src/application/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CodeEvaluator/src/model/evaluation/CodeComplexityEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CodeEvaluator/src/model/evaluation/EvaluationResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CodeEvaluator/src/model/parser/DirectoryParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CodeEvaluator/src/model/parser/FileParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/PupilManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/TeacherManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/person/Pupil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/person/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/school/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/school/subject/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeEvaluator/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeEvaluator/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +43,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,

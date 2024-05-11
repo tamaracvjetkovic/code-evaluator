@@ -3,6 +3,7 @@ package model.evaluation;
 import com.github.javaparser.JavaParser;
 import com.github.javaparser.ParseException;
 import com.github.javaparser.ast.CompilationUnit;
+import com.github.javaparser.ast.body.MethodDeclaration;
 import filemanagement.FilesManager;
 import model.visitoradapter.MethodVisitor;
 
@@ -10,6 +11,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+
+import static java.lang.Math.min;
 
 
 public class CodeComplexityEvaluator  {
@@ -39,7 +42,7 @@ public class CodeComplexityEvaluator  {
             throw new RuntimeException(e);
         }
 
-        new MethodVisitor().visit(cu, methodsComplexity);
+        new MethodVisitor(methodsComplexity).visit(cu, null);
     }
 
     private void loadEvaluationResults() {
@@ -53,7 +56,7 @@ public class CodeComplexityEvaluator  {
     }
 
     public void printEvaluationResults() {
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < min(3, results.size()); i++) {
             System.out.println(results.get(i).toString());
         }
     }

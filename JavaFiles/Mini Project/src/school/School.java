@@ -23,15 +23,6 @@ public class School {
 
     public int GetDifficulty() {
         switch (type) {
-            case "Elementary" : {
-                return 1;
-            }
-            case "Middle" : {
-                return 2;
-            }
-            case "High" : {
-                return 3;
-            }
             default : {
                 return 4;
             }
