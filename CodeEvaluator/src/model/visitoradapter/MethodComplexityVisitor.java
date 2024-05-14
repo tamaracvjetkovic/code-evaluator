@@ -105,9 +105,7 @@ public class MethodComplexityVisitor extends VoidVisitorAdapter<HashMap<String, 
             else if (isForeachStatement(childNode)) visit((ForeachStmt) childNode, methodsComplexity);
             else if (isWhileStatement(childNode)) visit((WhileStmt) childNode, methodsComplexity);
             else if (isDoStatement(childNode)) visit((DoStmt) childNode, methodsComplexity);
-            else {
-                visitAllStatements(childNode, methodsComplexity);
-            }
+            else visitAllStatements(childNode, methodsComplexity);
         }
     }
 }

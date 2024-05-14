@@ -6,11 +6,9 @@ import model.evaluation.CodeStyleValidator;
 
 public class Application {
 
-    private String directoryName;
-    private CodeComplexityEvaluator codeEvaluator;
-    private CodeStyleValidator codeValidator;
-
-    public Application() { }
+    private final String directoryName;
+    private final CodeComplexityEvaluator codeEvaluator;
+    private final CodeStyleValidator codeValidator;
 
     public Application(String directoryName) {
         this.directoryName = directoryName;

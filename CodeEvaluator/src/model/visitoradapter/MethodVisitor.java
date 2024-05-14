@@ -1,11 +1,9 @@
 package model.visitoradapter;
 
-import com.github.javaparser.ast.Node;
 import com.github.javaparser.ast.body.MethodDeclaration;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 
 import java.util.HashMap;
-import java.util.List;
 
 
 public class MethodVisitor extends VoidVisitorAdapter<Object> {
