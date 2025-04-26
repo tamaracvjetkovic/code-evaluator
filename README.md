@@ -1,6 +1,6 @@
 # CodeEvaluator 📊
 
-A console application that analyzes Java methods for complexity.
+A console application that analyzes methods for complexity.
 
 ---
 
