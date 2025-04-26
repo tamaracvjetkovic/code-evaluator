@@ -4,8 +4,6 @@ A console application that analyzes methods for complexity.
 
 ---
 
-This was a project for qualifying for the JetBrains internship 2024.
-
 The ``goal`` of the project was to:
 - implement an efficient way to scan a large number of .java files,
 - evaluate and analyze the complexity of the methods/functions,
